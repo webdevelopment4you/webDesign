@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--for mobile zooming-->
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <div class="row firstRow">
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-push-6 col-md-push-6 rightBlock">
+
+        <div class="patternContainer">
+          <img src="images/pattern-bg.svg" alt="background pattern" class="img-responsive userBg">
+        </div>
+      
+        <div class="photoContainer">
+          <img src="images/image-tanya.jpg" alt="Tanya" class="img-responsive userPhoto" width="70%" id="user">
+        </div>
+        <div class="moveIcon">
+          <img src="images/icon-prev.svg" alt="previous" class="img-responsive prev" onclick = "prevChange()">
+          <img src="images/icon-next.svg" alt="next" class="img-responsive next" onclick = "nextChange()">
+        </div>
+        
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-pull-5 col-md-pull-5 leftBlock">
+
+        <div class="quoteContainer">
+          <img src="images/pattern-quotes.svg" alt="double quotes" class="quotes">
+        </div>
+
+        <div class="contentContainer">
+          <p id="mySelf">“ I’ve been interested in coding for a while but never taken the jump, until now.
+          I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+          excited about the future. ”<p>
+          <p id="nameTag"> <span id="name">Tanya Sinclair<span> <p id="position">UX Engineer</p> </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+
+      <img src="images/pattern-curve.svg" alt="footer pattern" class="img-responsive footerImg">
+
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bhomeshwar Rathore</a>.
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
